@@ -34,3 +34,10 @@ this:thisDevice :state [
 :t2 15.31
 ].
 ```
+
+## Security considerations
+
+This server does not use any authentiucation!  It must only be used in a closed trusted IoT net, protected by firewalls or proxies. This is just a quick demo, not a product, and no responsability is taken for its security in any way.
+
+Beware of setting up systems which are ROM-based and cannot be upgraded over the Internet.  If a bug should manifest itself, they wil all become vulnerable at once, with no way to upgrade. 
+
